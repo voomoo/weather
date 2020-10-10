@@ -1,0 +1,33 @@
+body {
+    background: #48AFCE;
+    
+}
+hr {
+    border: 2px solid white;
+    width: 400px;
+}
+
+.container-fluid {
+    text-align: center;
+    margin-top: 20px;
+}
+.container {
+    margin: none;
+    padding: none;
+}
+.weather-icon {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+.last {
+    border-right: 1px solid white;
+}
+
+@media only screen and (max-width: 570px) {
+    .last {
+      border-right: 0px;
+      border-bottom: 1px solid white;
+    }
+  }
